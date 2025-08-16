@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruang Rekam - Jasa Video Profesional</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Feather Icons for crisp icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <style>
+        /* Custom styles can be added here if needed */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* Dark background */
+            color: #e5e7eb; /* Light text */
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-card {
+            background: rgba(31, 41, 55, 0.5); /* Semi-transparent dark gray */
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .section-title {
+            @apply text-3xl md:text-4xl font-bold text-center mb-2;
+        }
+        .section-subtitle {
+            @apply text-center text-gray-400 mb-12 max-w-2xl mx-auto;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header / Navbar -->
+    <header class="bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-700/50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold gradient-text">
+                Ruang Rekam
+            </a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#layanan" class="text-gray-300 hover:text-sky-400 transition-colors duration-300">Layanan</a>
+                <a href="#harga" class="text-gray-300 hover:text-sky-400 transition-colors duration-300">Harga</a>
+                <a href="#tentang" class="text-gray-300 hover:text-sky-400 transition-colors duration-300">Tentang Kami</a>
+                <a href="#kontak" class="text-gray-300 hover:text-sky-400 transition-colors duration-300">Kontak</a>
+            </nav>
+            <a href="#kontak" class="hidden md:inline-block bg-sky-500 hover:bg-sky-600 text-white font-semibold py-2 px-4 rounded-lg transition-transform duration-300 hover:scale-105">
+                Hubungi Kami
+            </a>
+            <!-- Mobile menu button can be added here if needed -->
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="min-h-screen flex items-center bg-cover bg-center" style="background-image: linear-gradient(rgba(17, 24, 39, 0.8), rgba(17, 24, 39, 1)), url('https://placehold.co/1920x1080/1a202c/ffffff?text=Visual');">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-4">
+                    Wujudkan <span class="gradient-text">Visi Kreatif</span> Anda
+                </h1>
+                <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8">
+                    Kami adalah tim kreatif yang siap membantu Anda membuat video branding, tutorial, animasi, dan berbagai jenis video lainnya untuk meningkatkan citra bisnis Anda.
+                </p>
+                <a href="#layanan" class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full text-lg transition-transform duration-300 hover:scale-105 inline-block">
+                    Lihat Layanan Kami
+                </a>
+            </div>
+        </section>
+
+        <!-- Layanan Section -->
+        <section id="layanan" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title text-white">Layanan Video Profesional</h2>
+                <p class="section-subtitle">Kami menyediakan berbagai jasa pembuatan video untuk segala kebutuhan Anda, dari promosi produk hingga dokumentasi acara.</p>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service Card: Video Branding -->
+                    <div class="glass-card rounded-xl p-6 flex flex-col hover:border-sky-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-sky-500/10">
+                        <h3 class="text-2xl font-bold text-white mb-3">Video Branding</h3>
+                        <p class="text-gray-300 flex-grow mb-4">Membantu audiens memahami keunggulan produk atau layanan Anda melalui visual yang menarik dan narasi yang kuat.</p>
+                        <a href="https://youtu.be/Jc8rgeyi7fI?si=PPXPtRmovlGSe4IQ" target="_blank" class="mt-auto text-sky-400 hover:text-sky-300 font-semibold inline-flex items-center">
+                            Lihat Contoh <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                        </a>
+                    </div>
+                    
+                    <!-- Service Card: Video Tutorial -->
+                    <div class="glass-card rounded-xl p-6 flex flex-col hover:border-sky-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-sky-500/10">
+                        <h3 class="text-2xl font-bold text-white mb-3">Video Tutorial</h3>
+                        <p class="text-gray-300 flex-grow mb-4">Menampilkan cara kerja produk atau layanan Anda secara jelas dan mudah dipahami oleh audiens.</p>
+                        <a href="https://youtu.be/HH1At-gk4mQ?si=nSRyHW8uMRU9LqvD" target="_blank" class="mt-auto text-sky-400 hover:text-sky-300 font-semibold inline-flex items-center">
+                            Lihat Contoh <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                        </a>
+                    </div>
+                    
+                    <!-- Service Card: Video Animasi -->
+                    <div class="glass-card rounded-xl p-6 flex flex-col hover:border-sky-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-sky-500/10">
+                        <h3 class="text-2xl font-bold text-white mb-3">Video Animasi</h3>
+                        <p class="text-gray-300 flex-grow mb-4">Mengemas pesan dengan cara unik dan kreatif, membuat audiens lebih tertarik untuk menonton konten Anda.</p>
+                        <a href="https://youtu.be/CMqw9usH8-8?si=cYgQv-lj0X-01QXj" target="_blank" class="mt-auto text-sky-400 hover:text-sky-300 font-semibold inline-flex items-center">
+                            Lihat Contoh <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                        </a>
+                    </div>
+
+                    <!-- Service Card: Video Live -->
+                    <div class="glass-card rounded-xl p-6 flex flex-col hover:border-sky-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-sky-500/10">
+                        <h3 class="text-2xl font-bold text-white mb-3">Video Live</h3>
+                        <p class="text-gray-300 flex-grow mb-4">Menawarkan produk secara langsung kepada konsumen melalui streaming interaktif di berbagai platform.</p>
+                        <a href="https://youtu.be/K8aukMgQl8w?feature=shared" target="_blank" class="mt-auto text-sky-400 hover:text-sky-300 font-semibold inline-flex items-center">
+                            Lihat Contoh <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                        </a>
+                    </div>
+                    
+                    <!-- Service Card: Video Event -->
+                    <div class="glass-card rounded-xl p-6 flex flex-col hover:border-sky-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-sky-500/10">
+                        <h3 class="text-2xl font-bold text-white mb-3">Video Event</h3>
+                        <p class="text-gray-300 flex-grow mb-4">Mendokumentasikan kegiatan penting seperti webinar, kegiatan sosial, atau diskusi produk secara profesional.</p>
+                        <a href="https://youtu.be/aGmRgr_X3NM?feature=shared" target="_blank" class="mt-auto text-sky-400 hover:text-sky-300 font-semibold inline-flex items-center">
+                            Lihat Contoh <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                        </a>
+                    </div>
+
+                    <!-- Service Card: Video Edukasi -->
+                    <div class="glass-card rounded-xl p-6 flex flex-col hover:border-sky-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-sky-500/10">
+                        <h3 class="text-2xl font-bold text-white mb-3">Video Edukasi</h3>
+                        <p class="text-gray-300 flex-grow mb-4">Memberikan informasi dan pengetahuan luas kepada pelanggan mengenai produk atau layanan Anda.</p>
+                        <a href="https://youtu.be/SAigQHwp6YM?feature=shared" target="_blank" class="mt-auto text-sky-400 hover:text-sky-300 font-semibold inline-flex items-center">
+                            Lihat Contoh <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Price List Section -->
+        <section id="harga" class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title text-white">Paket Harga Fleksibel</h2>
+                <p class="section-subtitle">Kami menawarkan paket yang dapat disesuaikan dengan kebutuhan dan anggaran Anda. Transparan, tanpa biaya tersembunyi.</p>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Price Card Template -->
+                    <div class="glass-card rounded-xl p-6 border-2 border-transparent hover:border-sky-500 transition-all duration-300 flex flex-col">
+                        <h3 class="text-2xl font-bold text-sky-400 mb-4">Video Animasi</h3>
+                        <div class="mb-6">
+                            <p class="text-lg font-semibold text-white">Paket 1: Mulai Rp65.000</p>
+                            <ul class="text-gray-300 mt-2 space-y-1 list-disc list-inside">
+                                <li>Durasi hingga 30 detik</li>
+                                <li>Resolusi FHD</li>
+                                <li>Gratis 3x Revisi</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="text-lg font-semibold text-white">Paket 2: Mulai Rp110.000</p>
+                            <ul class="text-gray-300 mt-2 space-y-1 list-disc list-inside">
+                                <li>Durasi dari 30 detik</li>
+                                <li>Resolusi UHD</li>
+                                <li>Gratis 5x Revisi</li>
+                            </ul>
+                        </div>
+                    </div>
+                     <div class="glass-card rounded-xl p-6 border-2 border-transparent hover:border-sky-500 transition-all duration-300 flex flex-col">
+                        <h3 class="text-2xl font-bold text-sky-400 mb-4">Video Branding</h3>
+                        <div class="mb-6">
+                            <p class="text-lg font-semibold text-white">Paket 1: Rp34.000</p>
+                            <ul class="text-gray-300 mt-2 space-y-1 list-disc list-inside">
+                                <li>Durasi hingga 30 detik</li>
+                                <li>Editing Standar</li>
+                                <li>Gratis 3x Revisi</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="text-lg font-semibold text-white">Paket 2: Rp56.000</p>
+                            <ul class="text-gray-300 mt-2 space-y-1 list-disc list-inside">
+                                <li>Durasi hingga 1 Menit</li>
+                                <li>Editing Lengkap</li>
+                                <li>Gratis 5x Revisi</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="glass-card rounded-xl p-6 border-2 border-transparent hover:border-sky-500 transition-all duration-300 flex flex-col">
+                        <h3 class="text-2xl font-bold text-sky-400 mb-4">Video Tutorial</h3>
+                        <div class="mb-6">
+                            <p class="text-lg font-semibold text-white">Paket 1: Rp42.000</p>
+                            <ul class="text-gray-300 mt-2 space-y-1 list-disc list-inside">
+                                <li>Durasi hingga 10 Menit</li>
+                                <li>Editing Dasar</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="text-lg font-semibold text-white">Paket 2: Rp79.000</p>
+                            <ul class="text-gray-300 mt-2 space-y-1 list-disc list-inside">
+                                <li>Durasi hingga 20 Menit</li>
+                                <li>Editing Lengkap</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="glass-card rounded-xl p-6 border-2 border-transparent hover:border-sky-500 transition-all duration-300 flex flex-col">
+                        <h3 class="text-2xl font-bold text-sky-400 mb-4">Video Live</h3>
+                        <div class="mb-6">
+                            <p class="text-lg font-semibold text-white">Paket 1: Rp75.000</p>
+                            <ul class="text-gray-300 mt-2 space-y-1 list-disc list-inside">
+                                <li>Durasi hingga 1 Jam</li>
+                                <li>Termasuk Live Setup</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="text-lg font-semibold text-white">Paket 2: Rp120.000</p>
+                            <ul class="text-gray-300 mt-2 space-y-1 list-disc list-inside">
+                                <li>Durasi hingga 3 Jam</li>
+                                <li>Termasuk Live Setup</li>
+                            </ul>
+                        </div>
+                    </div>
+                     <div class="glass-card rounded-xl p-6 border-2 border-transparent hover:border-sky-500 transition-all duration-300 flex flex-col">
+                        <h3 class="text-2xl font-bold text-sky-400 mb-4">Video Event</h3>
+                        <div class="mb-6">
+                            <p class="text-lg font-semibold text-white">Paket 1: Rp62.000</p>
+                            <ul class="text-gray-300 mt-2 space-y-1 list-disc list-inside">
+                                <li>Durasi hingga 2 Menit</li>
+                                <li>Editing Standar, Color Grading</li>
+                                <li>Resolusi FHD 30fps</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="text-lg font-semibold text-white">Paket 2: Rp83.000</p>
+                            <ul class="text-gray-300 mt-2 space-y-1 list-disc list-inside">
+                                <li>Durasi hingga 2 Menit</li>
+                                <li>Editing Lengkap, Color Grading</li>
+                                <li>Resolusi FHD 60fps</li>
+                            </ul>
+                        </div>
+                    </div>
+                     <div class="glass-card rounded-xl p-6 border-2 border-transparent hover:border-sky-500 transition-all duration-300 flex flex-col">
+                        <h3 class="text-2xl font-bold text-sky-400 mb-4">Video Edukasi</h3>
+                        <div class="mb-6">
+                            <p class="text-lg font-semibold text-white">Paket 1: Rp44.000</p>
+                            <ul class="text-gray-300 mt-2 space-y-1 list-disc list-inside">
+                                <li>Durasi hingga 3 Menit</li>
+                                <li>Editing Standar</li>
+                                <li>Gratis 3x Revisi</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="text-lg font-semibold text-white">Paket 2: Rp72.000</p>
+                            <ul class="text-gray-300 mt-2 space-y-1 list-disc list-inside">
+                                <li>Durasi hingga 5 Menit</li>
+                                <li>Editing Lengkap</li>
+                                <li>Gratis 5x Revisi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Us Section -->
+        <section id="tentang" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <h2 class="section-title text-white">Tentang <span class="gradient-text">Ruang Rekam</span></h2>
+                    <p class="section-subtitle">Kami adalah tim kecil yang bersemangat tentang penceritaan visual. Kami bekerja secara virtual untuk memberikan hasil terbaik dengan efisiensi maksimal.</p>
+                </div>
+                <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 text-center">
+                    <div class="glass-card rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-white">Arga Saputra (05)</h3>
+                        <p class="text-sky-400">XII DKV 2</p>
+                    </div>
+                    <div class="glass-card rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-white">Naufal Dylan P.P (25)</h3>
+                        <p class="text-sky-400">XII DKV 2</p>
+                    </div>
+                </div>
+                 <div class="mt-12 text-center max-w-3xl mx-auto">
+                    <h3 class="text-2xl font-bold text-white mb-4">Strategi Pengembangan Kami</h3>
+                    <p class="text-gray-300">Sebagai tahap awal, kami fokus mengumpulkan modal, membangun portofolio yang kuat, terus mempelajari tren terbaru, dan berkolaborasi dengan perusahaan lain untuk tumbuh bersama. Kami percaya pada kualitas, kreativitas, dan kepuasan klien.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="kontak" class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="section-title text-white">Siap Berkolaborasi?</h2>
+                <p class="section-subtitle">Jangan ragu untuk menghubungi kami. Mari diskusikan ide Anda dan bagaimana kami bisa membantu mewujudkannya.</p>
+                <div class="flex justify-center items-center space-x-6">
+                    <a href="https://wa.me/62895380800700" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition-transform duration-300 hover:scale-105">
+                        <div class="flex items-center">
+                            <i data-feather="message-circle" class="mr-2"></i>
+                            <span>WhatsApp</span>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/ruang_rekam.id" target="_blank" class="inline-block bg-gradient-to-r from-purple-500 to-pink-500 hover:opacity-90 text-white font-bold py-3 px-6 rounded-lg transition-transform duration-300 hover:scale-105">
+                        <div class="flex items-center">
+                            <i data-feather="instagram" class="mr-2"></i>
+                            <span>Instagram</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-700/50">
+        <div class="container mx-auto px-6 py-6 text-center text-gray-400">
+            <p>&copy; 2024 Ruang Rekam. Dibuat oleh Kelompok 12.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Feather Icons
+        feather.replace();
+    </script>
+
+</body>
+</html>
